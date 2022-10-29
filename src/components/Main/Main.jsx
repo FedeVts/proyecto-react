@@ -1,8 +1,7 @@
-import React from 'react'
 
-export const Main = () => {
+const Main = () => {
   return (
-    <main>Main</main>
+    <h2>esto es el main</h2>
   )
 }
 export default Main
