@@ -5,14 +5,14 @@ import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
-    <body className="App">
+    <body className="App-body">
       <header className="App-header">
         <NavBar />
       </header>
-      <main>
+      <main className="App-main">
         <Main/>
       </main>
-      <footer>
+      <footer className="App-Footer">
         <Footer/>
       </footer>
     </body>
