@@ -1,7 +1,8 @@
-import "../src/App.css";
-import NavBar from "./components/NavBar/NavBar"
-import Main from "./components/Main/Main"
-import Footer from "./components/Footer/Footer"
+import "../src/index.css";
+import NavBar from "./components/NavBar/NavBar";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
   return (
@@ -10,10 +11,12 @@ function App() {
         <NavBar />
       </header>
       <main className="App-main">
-        <Main/>
+        <Main>
+          
+        </Main>
       </main>
       <footer className="App-Footer">
-        <Footer/>
+        <Footer />
       </footer>
     </body>
   );
